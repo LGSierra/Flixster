@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#2C2B2B">
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -20,9 +21,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#CDDC39"
         android:textSize="24sp"
         tools:text="Encanto" />
 
@@ -31,8 +35,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="6dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#FFEB3B"
         tools:text="The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope." />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#00BCD4"
+        tools:text="7.8 Average rating" />
+
 </RelativeLayout>
