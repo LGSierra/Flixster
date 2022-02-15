@@ -20,7 +20,7 @@
 ### App Walkthough GIF
 
 
-<img src="WalkthroughPart2.gif" width=250><br>
+<img src="WalkthroughPart2.gif" width=350><br>
 
 ### Notes
 
